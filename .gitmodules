@@ -1,0 +1,3 @@
+[submodule "Open-Transactions"]
+	path = Open-Transactions
+	url = https://github.com/SocietyPro/Open-Transactions.git
