@@ -18,13 +18,16 @@ Windows Install instructions
 	sopro-cpp-dependencies\OpenSSL-Win32
 	
 	add "lib" prefix to the file ssleay32.a  
-	sopro-cpp-dependencies\win32\OpenSSL-Win32\lib\MinGW\ssleay32.a (original name)  
-	sopro-cpp-dependencies\win32\OpenSSL-Win32\lib\MinGW\libssleay32.a (renamed)  
+	sopro-cpp-dependencies\OpenSSL-Win32\lib\MinGW\ssleay32.a (original name)  
+	sopro-cpp-dependencies\OpenSSL-Win32\lib\MinGW\libssleay32.a (renamed)  
 
 * Build the libraries in Release mode  
    In the command line execute:
-     * protobuf-2.5.0-win32\vsprojects > extract_includes.bat
-     * Open-Transactions > project\makeproto.bat
+     * cd protobuf-2.5.0-win32\vsprojects
+	 * extract_includes.bat
+	 * cd ..\..
+     * cd Open-Transactions
+	 * project\makeproto.bat
 	 
    Compile xmlrpc in release mode  
      * xmlrpc-c-1.25.30\qt-project\xmlrpc.pro
