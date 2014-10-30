@@ -1,2 +1,8 @@
 # the open SSL library
 OpenSSL-Win32
+
+# build directories
+xmlrpc-c-1.25.30/bin/
+xmlrpc-c-1.25.30/build*
+
+
